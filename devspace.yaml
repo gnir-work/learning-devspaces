@@ -1,0 +1,10 @@
+version: v2beta1
+name: application
+
+dependencies:
+  api-server:
+    path: ./api_server/devspace.yaml
+    disablePull: true
+  webapp:
+    path: ./webapp/devspace.yaml
+    disablePull: true
